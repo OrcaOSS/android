@@ -1261,13 +1261,6 @@
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
   <!-- START Removal -->
-  <remove-project name="platform/build" />
-  <remove-project name="platform/build/blueprint" />
-  <remove-project name="platform/build/soong" />
-  <remove-project name="platform/frameworks/native" />
-  <remove-project name="platform/hardware/libhardware" />
-  <remove-project name="platform/packages/apps/ThemePicker" />
-  <remove-project name="platform/system/sepolicy" />
   <remove-project name="device/amlogic/yukawa" />
   <remove-project name="device/amlogic/yukawa-kernel" />
   <remove-project name="device/common" />
@@ -1334,6 +1327,13 @@
   <remove-project name="device/sample" />
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
+  <remove-project name="platform/build" />
+  <remove-project name="platform/build/blueprint" />
+  <remove-project name="platform/build/soong" />
+  <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
+  <remove-project name="platform/system/sepolicy" />
   <!-- END Removal -->
   <!-- START Orca additions -->
   <include name="orca.xml" />
