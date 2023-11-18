@@ -30,6 +30,7 @@
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk,orca-infra" remote="orca" />
 
   <!-- Hardware -->
+  <project path="hardware/libhardware" name="android_hardware_libhardware" groups="orca-infra" remote="orca" />
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom" remote="orca">
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
