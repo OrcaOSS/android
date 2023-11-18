@@ -1330,7 +1330,6 @@
   <remove-project name="device/sample" />
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
-  <remove-project name="kernel/configs" />
   <!-- END Removal -->
   <!-- START Orca additions -->
   <include name="orca.xml" />
