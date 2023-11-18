@@ -22,6 +22,10 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+
+  <!-- Packages -->
+  <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" groups="orca-infra" remote="orca" />
+  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" groups="orca-infra" remote="orca" />
   
   <!-- Vendor -->
   <project path="vendor/orca" name="android_vendor_orca" remote="orca" groups="orca-infra" />
