@@ -23,6 +23,9 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- Device -->
+  <project path="device/orca/sepolicy" name="android_device_orca_sepolicy" groups="orca-infra" remote="orca" />
+
   <!-- Frameworks -->
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk,orca-infra" remote="orca" />
 
