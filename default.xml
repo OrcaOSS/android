@@ -1266,6 +1266,7 @@
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/packages/apps/ThemePicker" />
+  <remove-project name="platform/system/sepolicy" />
   <remove-project name="device/amlogic/yukawa" />
   <remove-project name="device/amlogic/yukawa-kernel" />
   <remove-project name="device/common" />

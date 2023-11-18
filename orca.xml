@@ -35,6 +35,9 @@
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" groups="pdk-fs,orca-infra" remote="orca" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" groups="orca-infra" remote="orca" />
   
+  <!-- System -->
+  <project path="system/sepolicy" name="android_system_sepolicy" groups="orca-infra" remote="orca" />
+
   <!-- Vendor -->
   <project path="vendor/orca" name="android_vendor_orca" remote="orca" groups="orca-infra" />
 
