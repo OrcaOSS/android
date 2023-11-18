@@ -1264,6 +1264,7 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/build/blueprint" />
   <remove-project name="platform/build/soong" />
+  <remove-project name="platform/frameworks/native" />
   <remove-project name="device/amlogic/yukawa" />
   <remove-project name="device/amlogic/yukawa-kernel" />
   <remove-project name="device/common" />
